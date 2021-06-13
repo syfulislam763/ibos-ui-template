@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+
+/* header container styles */
+.header-container{
+    width: 1440px;
+    height: 622px;
+    background-color: darkblue;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    margin: 0px auto;
+    color: #ffffff;
+    height: 38px;
+    padding-top: 15px;
+}
+.header-section-one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.company-logo{
+    
+}
+.company-logo img{
+    height: 38px;
+    width: 80px;
+    margin-right: 33px;
+}
+
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+.navbar ul li{
+    margin-right: 21px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.header-section-two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.header-section-two img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+/* header content styles*/
+.header-content{
+    width: 770px;
+    height: 110;
+    margin: 75px auto;
+    color: #f2f7ff;
+    text-align: center;
+}
+.header-content h1{
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    letter-spacing: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+}
+.header-content p{
+    color: #c1ccdf;
+    font-size: 16px;
+    margin: 0px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 550;
+    margin-top: 15px;
+}
+
+
+
+
+
+/* Service container styles */
+.service-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px 25px;
+    justify-content: center;
+
+    width: 1090px;
+    height: 473px;
+    background-color: #f8f9fc;
+    border-radius: 38px;
+    padding: 41px;
+  
+    position: absolute;
+    top: 347px;
+    left: 135px;
+    right: 135px;
+    z-index: 10;
+}
+.service{
+    
+    background-color: #ffffff;
+    height: auto;
+    width: 196px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
+    box-shadow: 2px 2px 2px 2px #fff;
+
+    cursor: pointer;
+
+}
+.service-item{
+    position: absolute;
+    bottom: 30px;
+}
+.service-item p{
+    font-weight: 600;
+    color: darkblue;
+}
+
+
+
+
+/* body container styles  */
+.body-container{
+    min-height: 600px;
+    background-color: #fff;
+    width: 1440px;
+}
+
+.enable-display{
+    display: none;
+}
+
+.service-img{
+    height: 80px;
+    width: 80px;
+}
+.service-img-oval{
+    height: 100px;
+    width: 100px;
+}
+
